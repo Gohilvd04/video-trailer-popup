@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Trailing Popup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=400"
+            alt="movie-image">
+
+        <h2>Movie Title</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam, perferendis laborum autem
+            architecto et blanditiis, aliquam fuga, nobis est deserunt pariatur enim recusandae! Voluptatem commodi
+            aliquam
+            quasi inventore, velit fugit? Numquam veniam dolores nihil dolorum illo dicta alias, optio eligendi repellat
+            magni impedit facere corrupti earum, in doloribus harum deserunt eum hic consequuntur?</p>
+
+        <button class="btn">Watch now</button>
+    </div>
+    <div class="trailer-container active">
+        <video src="video.mp4" controls></video>
+        <i class="fa fa-times fa-2x close-icon" aria-hidden="true"></i>
+    </div>
+
+</body>
+
+</html>
